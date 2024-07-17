@@ -6,7 +6,6 @@
  * MIT Licensed
  */
 
-/*pull req scan test*/
 
 'use strict';
 
