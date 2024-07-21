@@ -34,7 +34,7 @@ jobs:
           dependency-check/dependency-check/bin/dependency-check.sh --project "Express.js Application" --scan . --format "ALL" --out dependency-check-report
 
       - name: Upload Dependency Check Report
-        uses: actions/upload-artifact@master
+        uses: actions/upload-artifact@4
         with:
            name: Dependency Check report
            path: ${{github.workspace}}/reports
