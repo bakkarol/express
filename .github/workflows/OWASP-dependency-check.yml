@@ -37,4 +37,4 @@ jobs:
         uses: actions/upload-artifact@master
         with:
            name: Dependency Check report
-           path: ${{github.workspace}}/reports
+           path: ${{github.workspace}}/app/build/reports/dependency-check/dependency-check-report.html
